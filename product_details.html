@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Online Shop</title>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+   </head>
+   <body>
+   	<div class="header">
+      <div class="header-top">
+
+        <div class="header-top-left">
+            <div class="contact-info">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <i class="fa-solid fa-phone"></i>
+                            <span>+91-8955173579</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-solid fa-envelope"></i>
+                            <span>mudgaltanya5@gmail.com</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="header-top-right">
+            <div class="socialicons">
+                <ul>
+                    <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-dribbble"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-google"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="header-middle">
+      <div class="nav-left">
+  	     <ul>
+  	       <li><a href="index.html" class="logo"><i class="fa-solid fa-bag-shopping"></i>E<span>-Shop</span></a></li>
+  	     </ul>
+         <div class="dropdown">	
+           <ul>
+    	     <li><a href="#">USA</a>
+    	       <ul>    	
+  		         <li><a href="">Canada</a></li>
+  			     <li><a href="">UK</a></li>
+  		       </ul>
+  		     </li>
+  	        </ul>
+         </div>
+         <div class="dropdown1">	
+          <ul>
+    	    <li><a href="#">DOLLAR</a>
+    	      <ul>    	
+  		        <li><a href="">Canadian dollar</a></li>
+  			    <li><a href="">Pound</a></li>
+  		      </ul>
+  		    </li>
+  	      </ul>
+         </div>
+      </div>   
+      <div class="nav-right">
+          <ul>
+             <li class="account">
+               <a href="#"><i class="fa-solid fa-user"></i>Accounts</a> 
+                <ul class="account-menu">
+                  <li><a href="wishlist.html"><i class="fa-solid fa-heart"></i>Wishlist</a></li>
+                  <li><a href="cart.html"><i class="fa-solid fa-cart-arrow-down"></i>Cart</a></li>
+                  <li><a href="Orders.html"><i class="fa-solid fa-box"></i>My<span>Orders</span></a></li>
+                  <li><a href="checkout.html"><i class="fa-solid fa-crosshairs"></i> Checkout</a></li>
+                  <li><a href="login.html"><i class="fa-duotone fa-solid fa-user-plus"></i>Login</a></li>
+                </ul> 
+             </li>
+          </ul>
+     </div>
+    </div>
+    <div class="login-header-bottom">
+    	<div class="navbar-left">
+            <span class="menu-icon">&#9776;</span>
+    		<ul>
+    			<li><a href="index.html">Home</a></li>
+    			<li><a href="about.html">About Us</a></li>
+    			<li class="product"><a href="products.html">Products</a>
+                    <div class="drop-down">
+                        <ul>
+                            <li><a href="#">Product Details</a></li>
+                            <li><a href="categories.html">Categories</a></li>
+                            <li><a href="Cart.html">Cart</a></li>
+                            <li><a href="Orders.html">Orders</a></li>
+                        </ul>
+                    </div>
+                </li>
+    			<li><a href="contact.html">Contact</a></li>
+    		</ul>
+    	</div>
+    	<div class="navbar-right">
+    		<form>
+    		  <input type="text" name="text" value=""/>
+    		  <input type="submit" name="btn" value="Search" />
+    		</form> 
+        </div>
+    </div>
+    <div class="products-details-page">
+       <div class="product-img">
+           <img src="images/tshirt.png" alt="shirt">
+       </div> 
+    </div>
+    <div class = "box5">
+           <form method="POST" action="/update-cart">
+              <h5>Pink -Women Short sleeve t-shirt</h5>
+              <p>Short sleeve t-shirts are perfect for casual or semi-formal occasions. We use premium bio-washed cotton and ensure that each piece is stitched with utmost care and attention to provide an immaculate finish.</p>
+              <table>
+                <tr>
+                   <td><p>&dollar;20</p></td>
+                </tr>
+                <tr>    
+                   <td>
+                      <label>Colors</label>
+                      <input type="color" name="color" value="" />
+                   </td> 
+                </tr>
+                <tr>   
+                   <td>
+                      <label>Size</label>
+                      <input type="checkbox" name="check1" value="s" checked /><span>S</span>
+                      <input type="checkbox" name="check2" value="m"  /><span>M</span>
+                      <input type="checkbox" name="check3" value="l"  /><span>L</span>
+                   </td> 
+                </tr>
+                <tr>
+                    <td>
+                        <p>Availability:instock</p>
+                        <p>Brand:Eshop</p>
+                    </td>
+                </tr>
+             </table>
+             <div class="socialicons">
+               <ul>
+                  <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                  <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                  <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                  <li><a href="#"><i class="fa-brands fa-dribbble"></i></a></li>
+                  <li><a href="#"><i class="fa-brands fa-google"></i></a></li>
+               </ul>
+             </div> <br/><br/>
+             <a href="cart.html" class="btn1">Add-to-cart</a>
+             <a href="checkout.html" class="btn6">Buy now</a>
+           </form>  
+    </div>
+    <div class="row6">
+      <div class="Review">
+         <h3>Write your Review</h3>
+         <form action="#" method="post">
+            <input type="text" name="Name" value="" placeholder="name" /><br/><br/>
+            <input type="email" name="Email" value="" placeholder="Email Address" /><br/>
+            <textarea row="8" cols="40" placeholder="message"></textarea><br/><br/>
+            <input type="Submit" name="btn" value="submit" />
+         </form>
+      </div>
+    </div>  
+    <div class="footer"> 
+        <ul>
+           <li><a href="index.html" class="logo"><i class="fa-solid fa-bag-shopping"></i>E<span>-Shop</span></a></li>
+        </ul>
+        <div class="socialicons">
+            <ul>
+                <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-dribbble"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-google"></i></a></li>
+            </ul>
+        </div> 
+        <div class="contact-info">
+            <ul>
+                <li>
+                    <a href="#">
+                        <i class="fa-solid fa-phone"></i>
+                        Mobile:<span>+91-8955173579</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-solid fa-envelope"></i>
+                        Email:<span>mudgaltanya5@gmail.com</span>
+                    </a>
+                </li>
+                <li>
+                    <span class="address">Address:</span>
+                    <address>10/564 Kaveri Path, Mansarovar,<br/> Jaipur 302020</address>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-nav">
+            <h4>Services</h4>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li class="product"><a href="#">Products</a>
+                    <div class="drop-down">
+                      <ul>
+                        <li><a href="#">Product Details</a></li>
+                        <li><a href="categories.html">Categories</a></li>
+                        <li><a href="Cart.html">Cart</a></li>
+                        <li><a href="Orders.html">Orders</a></li>
+                      </ul>
+                    </div>
+                </li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="footer-navbar">
+            <h4>Accounts</h4> 
+            <ul>
+                <li><a href="wishlist.html"><i class="fa-solid fa-heart"></i>Wishlist</a></li>
+                <li><a href="cart.html"><i class="fa-solid fa-cart-arrow-down"></i>Cart</a></li>
+                <li><a href="Orders.html"><i class="fa-solid fa-box"></i>My<span>Orders</span></a></li>
+                <li><a href="checkout.html"><i class="fa-solid fa-crosshairs"></i> Checkout</a></li>
+                <li><a href="login.html"><i class="fa-duotone fa-solid fa-user-plus"></i>Login</a></li>
+            </ul> 
+        </div>
+        <div class="footer-navbar1">
+            <h4>Shopping cart</h4> 
+            <ul>
+                <li><i class="fa-solid fa-cart-arrow-down"></i></li>
+            </ul> 
+        </div>
+        <div class="footer-navbar2">
+            <h4>Payment Method</h4> 
+            <ul>
+                <li>
+                    <i class="fa-brands fa-google-pay"></i>
+                    <i class="fa-brands fa-amazon-pay"></i>
+                </li>
+                <li>
+                    <i class="fa-brands fa-cc-paypal"></i>
+                    <i class="fa-solid fa-credit-card"></i>
+                </li>
+                <li>
+                    <i class="fa-brands fa-cc-visa"></i>
+                </li>
+            </ul> 
+        </div>
+        <p class="copyright">&copy; 2026 E-Shopper. All rights reserved.</p>
+    </div>
+ </body>
+</html>

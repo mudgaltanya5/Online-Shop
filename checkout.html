@@ -1,0 +1,349 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Online Shop</title>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+   </head>
+   <body>
+   	<div class="header">
+      <div class="header-top">
+
+        <div class="header-top-left">
+            <div class="contact-info">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <i class="fa-solid fa-phone"></i>
+                            <span>+91-8955173579</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-solid fa-envelope"></i>
+                            <span>mudgaltanya5@gmail.com</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="header-top-right">
+            <div class="socialicons">
+                <ul>
+                    <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-dribbble"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-google"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="header-middle">
+      <div class="nav-left">
+  	     <ul>
+  	       <li><a href="index.html" class="logo"><i class="fa-solid fa-bag-shopping"></i>E<span>-Shop</span></a></li>
+  	     </ul>
+         <div class="dropdown">	
+           <ul>
+    	     <li><a href="#">USA</a>
+    	       <ul>    	
+  		         <li><a href="">Canada</a></li>
+  			     <li><a href="">UK</a></li>
+  		       </ul>
+  		     </li>
+  	        </ul>
+         </div>
+         <div class="dropdown1">	
+          <ul>
+    	    <li><a href="#">DOLLAR</a>
+    	      <ul>    	
+  		        <li><a href="">Canadian dollar</a></li>
+  			    <li><a href="">Pound</a></li>
+  		      </ul>
+  		    </li>
+  	      </ul>
+         </div>
+      </div>   
+      <div class="nav-right">
+          <ul>
+             <li class="account">
+               <a href="#"><i class="fa-solid fa-user"></i>Accounts</a> 
+                <ul class="account-menu">
+                  <li><a href="wishlist.html"><i class="fa-solid fa-heart"></i>Wishlist</a></li>
+                  <li><a href="cart.html"><i class="fa-solid fa-cart-arrow-down"></i>Cart</a></li>
+                  <li><a href="Orders.html"><i class="fa-solid fa-box"></i>My<span>Orders</span></a></li>
+                  <li><a href="#"><i class="fa-solid fa-crosshairs"></i> Checkout</a></li>
+                  <li><a href="login.html"><i class="fa-duotone fa-solid fa-user-plus"></i>Login</a></li>
+                </ul> 
+             </li>
+          </ul>
+     </div>
+    </div>
+    <div class="login-header-bottom">
+    	<div class="navbar-left">
+            <span class="menu-icon">&#9776;</span>
+    		<ul>
+    			<li><a href="index.html">Home</a></li>
+    			<li><a href="about.html">About Us</a></li>
+    			<li class="product"><a href="products.html">Products</a>
+                    <div class="drop-down">
+                        <ul>
+                            <li><a href="product_details.html">Product Details</a></li>
+                            <li><a href="categories.html">Categories</a></li>
+                            <li><a href="Cart.html">Cart</a></li>
+                            <li><a href="Orders.html">Orders</a></li>
+                        </ul>
+                    </div>
+                </li>
+    			<li><a href="contact.html">Contact</a></li>
+    		</ul>
+    	</div>
+    	<div class="navbar-right">
+    		<form>
+    		  <input type="text" name="text" value=""/>
+    		  <input type="submit" name="btn" value="Search" />
+    		</form> 
+        </div>
+    </div>
+    <div class="checkout-page">
+       <h3>CHECKOUT</h3>
+       <form action="Orders.html" method="post">
+         <div class="checkout-1">
+           <h2>Billing Address</h2>
+           <table>
+             <tr>
+              <td>
+                <input type="text" name="First Name" value="" placeholder="First Name" class="t1" required="required" />
+                <input type="text" name="Last Name" value="" placeholder="Last Name" class="t2" required="required" />
+              </td>
+             </tr> 
+             <tr>
+              <td>
+                  <input type="email" name="Email" value="" placeholder="Email Address" required="required" />
+              </td>
+             </tr>
+             <tr>
+              <td>
+                  <input type="tel" pattern="[+]{1}[0-9]{2}-[0-9]{5} [0-9]{5}" placeholder="Telephone"          required="required" />
+              </td>
+             </tr>
+             <tr>
+              <td>
+                  <select name="country" required="required" class="s1">
+                      <option val="India">India</option>
+                      <option val="America">America</option>
+                      <option val="Australia">Australia</option>
+                      <option val="Pakistan">Pakistan</option>
+                      <option val="Bangladesh">Bangladesh</option>
+                      <option val="france">france</option>
+                      <option val="Russia">Russia</option>
+                  </select>
+              </td>
+             </tr>
+             <tr>
+              <td>
+                  <textarea row="8" cols="40" placeholder="Address" required="required"></textarea>
+              </td>
+             </tr>
+             <tr>
+              <td>
+                  <input type="text" name="town" value="" placeholder="Town" class="t3" required="required" />
+              </td>
+             </tr>
+             <tr>
+              <td>
+                  <select name="State/Region" required="required" class="s2">
+                      <optgroup label="India">
+                          <option value="Rajasthan">Rajasthan</option>
+                          <option value="Uttar Pradesh">Uttar Pradesh</option>
+                      </optgroup>
+                       <optgroup label="America">
+                          <option value="California">California</option>
+                          <option value=" Florida"> Florida</option>
+                      </optgroup>
+                       <optgroup label="Australia">
+                          <option value="Victoria">Victoria</option>
+                          <option value="Queensland ">Queensland </option>
+                      </optgroup>
+                       <optgroup label="Pakistan">
+                          <option value="Sindh">Sindh</option>
+                          <option value="Punjab">Punjab</option>
+                      </optgroup>
+                       <optgroup label="Bangladesh">
+                          <option value="Dhaka">Dhaka</option>
+                          <option value="Khulna">Khulna</option>
+                      </optgroup>
+                       <optgroup label="france">
+                          <option value="Brittany">Brittany</option>
+                          <option value="Normandy">Normandy</option>
+                      </optgroup>
+                       <optgroup label="Russia">
+                          <option value="Oblasts"> Oblasts</option>
+                          <option value="Krais">Krais</option>
+                      </optgroup>
+                  </select>
+                  <input type="number" name="Postal Code" value="" placeholder="Zip/Postal Code" required="required" />
+              </td>
+             </tr>
+             <tr>
+              <td>
+                  <input type="checkbox" name="check1" value="ship to the same address" checked /><span>SHIP TO THE SAME ADDRESS</span>
+                  <input type="checkbox" name="check2" value="create an account"  /><span> Create an Account</span>
+              </td>
+             </tr>
+           </table>
+           </div>
+           <div class="checkout-2">
+              <h5>SELECT SHIPPING METHOD</h5>
+              <table>  
+                 <tr>
+                    <td>
+                       <input type="radio" name="radio1" value="standard shipping $6.95"/><span>Standard Shipping $6.95</span> <br/>
+                       <input type="radio" name="radio2" value="create an account"  /> <span>Express Shipping $10.00</span> </td>
+                 </tr> 
+              </table>
+              <table>   
+                 <h4>Promo Code:</h>
+                 <tr>
+                    <td><input type="text" name="promo code" value="" placeholder="Add ptomo code" class="t3" /></td>
+                    <td><input type="submit" name="button1" value="Apply" /></td>
+                </tr>       
+              </table>
+               <table>   
+                 <h4>PAYMENT</h>
+                 <tr>
+                    <td><i class="fa-brands fa-google-pay"></i></td>
+                    <td><i class="fa-brands fa-amazon-pay"></i></td>
+                </tr>       
+              </table>
+               <div class="gpay-input-box">
+                  <input type="text" placeholder="Enter GPay ID (e.g. name@oksbi)">
+                  <button class="pay-btn">PAY</button>
+               </div>
+           </div>   
+       </form>
+    </div>
+    <div class = "container2">
+           <h4>Review Order</h4>
+           <form method="POST" action="/update-cart">
+              <table>
+                <tr>
+                   <th>Product</th>
+                   <th>Quantity</th>
+                   <th>Price</th>
+                </tr>
+                 <tr>
+                    <td><img src="images/tshirt.png" alt="tshirt"><span>Tshirt</span></td>
+                    <td><p>1</p></td>
+                    <td colspan="4">$20</td>
+                 </tr>  
+                 <tr>
+                  <td>Sub Total</td>
+                  <td colspan="3"><span>$20</span></td>
+                </tr>
+                <tr>    
+                  <td>Delivery Charges</td>
+                  <td colspan="3"><span>$30</span></td><br/>
+                </tr>
+                <tr>    
+                  <td>Total</td>
+                  <td colspan="3"><span>$50</span></td><br/>
+                </tr>
+                <tr>
+                    <td><a href="orders.html" class="btn3">Process order</a></td>
+                </tr> 
+             </table>
+           </form>  
+    </div>    
+    <div class="footer"> 
+        <ul>
+           <li><a href="index.html" class="logo"><i class="fa-solid fa-bag-shopping"></i>E<span>-Shop</span></a></li>
+        </ul>
+        <div class="socialicons">   
+            <ul>
+                <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-dribbble"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-google"></i></a></li>
+            </ul>
+        </div> 
+        <div class="contact-info">
+            <ul>
+                <li>
+                    <a href="#">
+                        <i class="fa-solid fa-phone"></i>
+                        Mobile:<span>+91-8955173579</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-solid fa-envelope"></i>
+                        Email:<span>mudgaltanya5@gmail.com</span>
+                    </a>
+                </li>
+                <li>
+                    <span class="address">Address:</span>
+                    <address>10/564 Kaveri Path, Mansarovar,<br/> Jaipur 302020</address>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-nav">
+            <h4>Services</h4>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li class="product"><a href="#">Products</a>
+                    <div class="drop-down">
+                      <ul>
+                        <li><a href="product_details.html">Product Details</a></li>
+                        <li><a href="categories.html">Categories</a></li>
+                        <li><a href="Cart.html">Cart</a></li>
+                        <li><a href="Orders.html">Orders</a></li>
+                      </ul>
+                    </div>
+                </li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="footer-navbar">
+            <h4>Accounts</h4> 
+            <ul>
+                <li><a href="#"><i class="fa-solid fa-heart"></i>Wishlist</a></li>
+                <li><a href="cart.html"><i class="fa-solid fa-cart-arrow-down"></i>Cart</a></li>
+                <li><a href="Orders.html"><i class="fa-solid fa-box"></i>My<span>Orders</span></a></li>
+                <li><a href="#"><i class="fa-solid fa-crosshairs"></i> Checkout</a></li>
+                <li><a href="login.html"><i class="fa-duotone fa-solid fa-user-plus"></i>Login</a></li>
+            </ul> 
+        </div>
+        <div class="footer-navbar1">
+            <h4>Shopping cart</h4> 
+            <ul>
+                <li><i class="fa-solid fa-cart-arrow-down"></i></li>
+            </ul> 
+        </div>
+        <div class="footer-navbar2">
+            <h4>Payment Method</h4> 
+            <ul>
+                <li>
+                    <i class="fa-brands fa-google-pay"></i>
+                    <i class="fa-brands fa-amazon-pay"></i>
+                </li>
+                <li>
+                    <i class="fa-brands fa-cc-paypal"></i>
+                    <i class="fa-solid fa-credit-card"></i>
+                </li>
+                <li>
+                    <i class="fa-brands fa-cc-visa"></i>
+                </li>
+            </ul> 
+        </div>
+        <p class="copyright">&copy; 2026 E-Shopper. All rights reserved.</p>
+    </div>
+ </body>
+</html>
